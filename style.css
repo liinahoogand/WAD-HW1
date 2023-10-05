@@ -1,21 +1,17 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
-    /*
-       CSS comment
-       The box-sizing CSS property sets how the total width and height of an element are calculated. 
-       If you set box-sizing: border-box; on an element, padding, and border are included in the width and height:
-    */
+   
   }
 
   body {
     line-height: 1.6;
     margin: 0;
-    background-color: gray;
+    background-color: lightgray;
      }
 
 .row {
-    background-color: gray;
+    background-color: lightgray;
     padding: 20px;
     margin-top: 100px;
     margin-left: 100px;
@@ -26,31 +22,29 @@
 }
 
 .card {
-    margin-bottom: 20px; /* Add margin at the bottom of each card */
+    margin-bottom: 20px; 
     padding: 20px;
-    border: 2px solid blue; /* Add a 1px solid border around each card */
+    border: 2px solid grey; 
     border-radius: 5px;
-    background-color: white;
-    
+    background-color: white
+}
 
-    }
+.post {
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
 
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
-     /* 
-       list-style: none = No marker is shown 
-     */
     }
 
 a {
     color: #34495e;
     text-decoration: none;
-     /* 
-       text-decoration: none - is used here to not show underlining under an anchor element when a mouse hovers over it.
-       Comment it out and check the result on the page.
-     */
     }
 
 .logo {
@@ -62,9 +56,7 @@ section {
     padding: 10px 15px;
     margin: 10px;
     display: block;
-        /* 
-          display: block - displays an element as a block element. It starts on a new line, and takes up the whole width
-       */
+        
 }
 
 .header {
@@ -80,14 +72,12 @@ section {
 
 .nav a {
     padding: 10px 15px;
-    text-transform: uppercase;
     text-align: center;
     display: block;
     color: #34495e;
     font-size: .99em;
        }
 
-/* Pseudo-class selector */
 .nav a:hover {
     background-color: #7ebeb6;
     color: #092747;
@@ -120,37 +110,6 @@ section {
     }
 } 
 
-.grid {
-    margin: 20px auto;
-    width: 100%;
-    border: 1px solid #746161;
-    background-color: #ddd;
-    display: grid;
-    grid-template-columns: auto auto;
-    /*     
-      grid-template-columns - the grid-template-columns CSS property defines the numbers and  
-      sizing functions of the grid columns.
-    */
-    gap: 10px 10px;
-    /* 
-    gap: row-gap and column-gap.
-    */
-}
-
-.grid p {
-    background-color: rgb(177, 164, 164);
-    color: white;
-    padding: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-
-@media (max-width: 500px){
-    .grid{
-        grid-template-columns: auto;
-    }
-}
-
 .header {
     position: fixed;
     width: 100%;
@@ -158,25 +117,6 @@ section {
 
 .footer {
     background-color: #a2ccea;
-}
+    text-align: center;
 
-.grid p:hover{
-    text-shadow: 2px 2px grey; 
-}
-
-section div strong {
-    color : red;
-}
-
-tr>th {
-    background-color: yellow;
-}
-
-tr {
-    background-color: green;
-}
-
-p::first-letter {
-    font-size: 20px;
-    color: red;
 }
