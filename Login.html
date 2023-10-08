@@ -13,7 +13,29 @@
 
         <a class="logo" href="#"><img src=".\picture.jpg" width="50" height="50" alt="profile_pic"></a>
     </header>
-    <h1>Hello, World!</h1>
-    <p>This is a basic HTML structure for a website.</p>
+
+    <form action="action_page.php" method="post">
+      
+      <div class="container">
+        <div class="tekst">
+            <h1>Welcome to PostIt</h1>
+            <p class="blue-text">Create an Account</p>
+            <p>or</p>
+            <p>Please log in</p>
+        </div>
+
+        <div class="login">
+          <input type="text" placeholder="Username" required>
+    
+          <input type="password" placeholder="Password" required>
+      
+          <form action="./index.html" method="post">
+            <button type="submit">Login</button>
+          </form>
+
+          <p class="blue-text">forget password</p>
+        </div>
+        </div>
+      </form>
 </body>
 </html>
