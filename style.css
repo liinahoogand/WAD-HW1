@@ -1,9 +1,9 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
-}
+  }
 
-body {
+  body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -20,7 +20,7 @@ body {
     margin-left: 100px;
     margin-right: 100px;
     border-radius: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0px
 }
 
 .add {
@@ -40,43 +40,46 @@ body {
 }
 
 .post {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
 }
+
 
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
+    }
 
 a {
     color: #34495e;
     text-decoration: none;
-}
+    }
 
 .logo {
     margin-right: 20px;
     font-size: 1.1em;
-}
+      }
 
 section {
     padding: 10px 15px;
     margin: 10px;
     display: block;
+        
 }
 
 .addPost {
+    
     margin: 0 auto;
     width: 300px;
     display: flex;
     padding: 20px;
-    border: 2px solid grey;
+    border: 2px solid grey; 
     border-radius: 5px;
-    background-color: white;
+    background-color: white
+    
 }
-
 .createpost {
     text-align: center;
 }
@@ -89,6 +92,7 @@ section {
     cursor: pointer;
 }
 
+
 .createpost input[type="submit"]:hover {
     opacity: 0.8;
 }
@@ -99,20 +103,21 @@ section {
     flex-direction: column;
 }
 
+
 .your-field {
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.your-field label {
+ 
+.your-field label{
     margin-right: 10px;
 }
 
 .your-field input[type="text"],
 .your-field input[type="file"] {
-    width: 200px;
+    width: 200px; 
     padding: 5px;
     margin-right: 10px;
 }
@@ -132,11 +137,12 @@ section {
     border-radius: 10px;
     border: 1px solid #646174;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+
 }
 
 .nav {
     margin-top: 5px;
-}
+     }
 
 .nav a {
     margin-left: 10px;
@@ -146,12 +152,13 @@ section {
     color: #34495e;
     font-size: 25px;
     font-weight: 600;
-}
+       }
 
 .nav a:hover {
     background-color: #7ebeb6;
     color: #092747;
-}
+             }
+
 
 @media (min-width: 800px) {
     .header,
@@ -164,23 +171,26 @@ section {
     }
 }
 
+
 @media (min-width: 1000px) {
     .header {
         flex-direction: row;
         justify-content: space-between;
     }
-}
+}   
 
 @media (max-width: 800px) {
     .logo {
         display: none;
+        
     }
-}
+} 
 
 .footer {
     background-color: #a2ccea;
     padding: 10px;
     text-align: center;
+
 }
 
 .tekst {
@@ -203,14 +213,7 @@ section {
     margin: 0 25%;
 }
 
-/* Bordered form */
-form {
-    margin: 100px 25%;
-    border: 3px solid #f1f1f1;
-    border-radius: 8px;
-}
 
-/* Full-width inputs */
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -221,7 +224,6 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
 button {
     background-color: blue;
     color: white;
@@ -234,24 +236,20 @@ button {
     border-radius: 8px;
 }
 
-/* Add a hover effect for buttons */
 button:hover {
     opacity: 0.8;
 }
 
-/* Add padding to containers */
 .container {
     padding: 16px;
     text-align: center;
 }
 
-/* The "Forgot password" text */
 span.psw {
     float: right;
     padding-top: 16px;
 }
 
-/* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
     span.psw {
         display: block;
@@ -275,3 +273,4 @@ span.psw {
         display: none;
     }
 }
+
